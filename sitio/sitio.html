@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Sofía</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reto01.css">
+    <link rel="icon" href="https://www.comunicacionsocial.uam.mx/identidaduam/images/el-emblema.jpg">
+</head>
+<body>
+            <!-- AUDIO -->
+        <section>
+            <h1 class="letras">AUDIO</h1>
+            <p>Espacio para audio</p>
+            <div class="audio-tags" id="audioTags"></div>
+        </section>
+        
+        <!-- IMAGENES -->
+        <section class="container">
+            <h1 class="letras">GALERÍA</h1>
+            <p>Espacio para galeria</p>
+            <div class="galeria">
+            <div class="foto" style="background-image: url(https://img.freepik.com/foto-gratis/ilustracion-fondo-abstracto-formas-diseno-multicolor-generadas-ia_188544-15582.jpg)" onclick="openModal(https://img.freepik.com/foto-gratis/ilustracion-fondo-abstracto-formas-diseno-multicolor-generadas-ia_188544-15582.jpg)"></div>
+                <img class="foto" src="https://img.freepik.com/foto-gratis/ilustracion-fondo-abstracto-formas-diseno-multicolor-generadas-ia_188544-15582.jpg" alt="Esta es una imagen generada con IA">
+                <img class="foto" src="https://img.freepik.com/foto-gratis/llamas-multicolores-iluminan-fondo-natural-abstracto-generado-ia_188544-11733.jpg" alt="Esta es una imagen generada con IA">
+                <img class="foto" src="https://img.freepik.com/fotos-premium/ondas-suaves-sedosas-llama-purpura-elegancia-generadas-ia_188544-11501.jpg" alt="Esta es una imagen generada con IA">
+                <img class="foto" src="https://img.freepik.com/fotos-premium/cubo-azul-vibrante-que-brilla-caos-oscuro-generado-ia_188544-11614.jpg" alt="Esta es una imagen generada con IA">
+                
+                            </div>
+        </section>
+        <!-- MODAL -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <!--span class="close" onclick="closeModal()">&times;</!--span-->
+            <img id="modalImage" class="modal-content">
+        </div>
+        
+        <!-- VIDEO -->
+        <section class="video-section">
+            <h2>VIDEO</h2>
+            <p>Espacio para video</p>
+            <div class="video-container">
+                <video muted loop controls poster="https://www.shutterstock.com/shutterstock/videos/1104750703/thumb/1.jpg?ip=x480">
+                    <source src="https://www.shutterstock.com/shutterstock/videos/1104750661/preview/stock-footage-abstract-pastel-motion-background-creative-video-texture-movement-with-delicate-colors-dreamy.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </section>
+    </div>
+
+    <script src="reto01.js"></script>
+</body>
+</html>
