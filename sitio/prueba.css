@@ -5,11 +5,13 @@ body {
 }
 
 header {
-    background-color: #222;
+    background-color: #001c50;;
     color: #fff;
+    font-weight: bolder;
+    font-size: 120%;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -41,37 +43,99 @@ main {
 
 .container {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
-
-.sidebar {
-    width: 250px;
-    background-color: #eee;
+.lateral {
+    width: 30%;
+    height: 100%;
+    background-color: #001c50;
     padding: 20px;
 }
-
-.content {
-    flex: 1;
-    padding: 20px;
+.boton{
+    width: 90%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #f87306;
+    font-size: 90%;
+    font-weight: bold;
+    color: antiquewhite;
+    border-radius: 20px;
+    border: 3px; 
 }
 
-.search-box {
-    display: flex;
+.boton:hover{
+    width: 90%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #f87306ab;
+    font-size: 93%;
+    font-weight: bold;
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+.texto{
+    font-weight: bold;
+    color:antiquewhite;
     align-items: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    
 }
 
-.search-box input {
+.buscar {
+    padding: 2%;
+    
+}
+
+footer{
+    background-color: #001c50;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 120%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.search-box button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 
+/*ICONOS*/
+.icono-lupa::before {
+    content: "\1F50D"; /* Lupa */
+    font-size: 24px; /* Tamaño del ícono */
+    color: #000; /* Color del ícono */
+}
+
+.icono-tag::before {
+    content: "\1F516"; /* Lupa */
+    font-size: 24px; /* Tamaño del ícono */
+    color: #000; /* Color del ícono */
+}
+
+.icono-chat::before {
+    content: "\💬"; /* Lupa */
+    font-size: 24px; /* Tamaño del ícono */
+    color: #000; /* Color del ícono */
+}
+
+.icono-audio::before {
+    content: "\1F4E3"; /* Lupa */
+    font-size: 24px; /* Tamaño del ícono */
+    color: #000; /* Color del ícono */
+}
+.icono-camara::before {
+    content: "\1F4F7"; /* Lupa */
+    font-size: 24px; /* Tamaño del ícono */
+    color: #000; /* Color del ícono */
+}
+
+.icono-ubicacion::before {
+    content: "\1F4CD"; /* Lupa */
+    font-size: 24px; /* Tamaño del ícono */
+    color: #000; /* Color del ícono */
+}
+
+.icono-info::before {
+    content: "\1F5DF"; /* Lupa */
+    font-size: 24px; /* Tamaño del ícono */
+    backcolor: #001c50; /* Color del ícono */
 }
