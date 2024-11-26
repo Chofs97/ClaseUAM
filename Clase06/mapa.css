@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1{
+    font-weight: 700;
+}
+
+p{
+    font-weight: normal;
+}
+
+#mapa {
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 10% auto;
+}
+
+#des {
+
+}
+
+#comparte:after{
+    content: "🌐";
+}
